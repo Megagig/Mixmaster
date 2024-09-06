@@ -1,9 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const HomeLayout = () => {
   return (
     <div>
-      <h2>Home layout</h2>
+      li<h2>Home layout</h2>
+      <Link to="/about">About page</Link>
     </div>
   );
 };
